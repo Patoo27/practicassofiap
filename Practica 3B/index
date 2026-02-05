@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Receta</title>
+    </head>
+    <body>
+        <h1>¿Qué me gusta y qué no?</h1>
+        <br>
+        <h2>Cosas que me gustan:</h2>
+        <ul>
+            <li>Dibujar.</li>
+            <li>Cantar.</li>
+            <li>Bailar.</li>
+            <li>Practicar deportes.</li>
+            <li>Probar cosas nuevas.</li>
+            <li>Escuchar música.</li>
+            <li>Salir con mis amigos y familia.</li>
+        </ul>
+        <br>
+        <h2>Cosas que no me gustan:</h2>
+        <ul>
+            <li>El aguacate.</li>
+            <li>Sociales.</li>
+            <li>La informática.</li>
+            <li>Hacer limpieza sin música.</li>
+        </ul>
+        <br>
+        <ol>
+            <li>La playa (en general).</li>
+            <li>El Pital.</li>
+            <li></li>
+        </ol>
+
