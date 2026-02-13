@@ -1,7 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Receta</title>
     </head>
+    <body>
+        <h1>mi itinerario de viajes ideal</h1>
+        <table>
+            <caption>itinerario de viajes ideal</caption>
+            <tr>
+                <th>Hora</th>
+                <th>dia 1</th>
+                <th>dia 2</th>
+                <th>dia 3</th>
+                <th>dia 4</th>
+            </tr>
+            <tr>
+                <td>8:00AM</td>
+                <td>salida del aeropuerto</td>
+                <td>Tour en cartagena</td>
+                <td>Desayuno a la carta</td>
+                <td>desayuno en hotel</td>
+            </tr>
+            <tr>
+                <td>10:00AM</td>
+                <td>desayuno buffet</td>
+                <td>Visita a ruinas</td>
+                <td>Piscina</td>
+                <td>Dia libre</td>
+            </tr>
+            <tr>
+                <td>12:00MD</td>
+                <td>ida a surf city y almuerzo</td>
+                <td>almuerzo</td>
+                <td>almuerzo</td>
+                <td>almuerzo</td>
+            </tr>
+            <tr>
+                <td>2:00 PM</td>
+                <td>ida a la playa</td>
+                <td>visita a destileria</td>
+                <td>spa</td>
+                <td>dia libre</td>
+            </tr>
+        </table>
+    </body>
+</html>
