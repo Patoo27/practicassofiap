@@ -18,5 +18,6 @@ img{
 }
 
 .oculto{
-    visibility: hidden;
+    /*visibility: hidden;*/
+    display: none;
 }
