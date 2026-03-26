@@ -1,0 +1,228 @@
+/*fuentes para el doc de google fonts*/
+@import 
+url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+
+@import 
+url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+
+/*primeros estilos*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*estilo general del body*/
+body{
+    background-image: url(../allMight/Wallpaper\ Do\ Boku\ no\ hero\ academia\ Plus\ Ultra.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: black;
+    line-height: 1.6;
+}
+
+p{
+    font-family: 'Story+Script', cursive;
+}
+
+/*header y navegacion*/
+header{
+    background-color: #232323;
+    color: #FAD42A;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.titulo{
+    font-family: 'Matemasie', cursive; /*fuente para el titulo de google fonts*/
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 10px;
+    max-height: max-content;
+    font-size: 1.8rem;
+}
+
+/*flexbox del menu*/
+.menu{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 10px;
+    font-size: 1.34rem;
+}
+
+.link{
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.link:hover{
+    background-color: navy; /*color al pasar el mouse por encima*/
+    color: aqua;
+}
+
+/*main y sections*/
+main{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    font-family: 'Story+Script', cursive;
+}
+
+section{
+    margin: 40px 0; /*separacion entre secciones*/
+    padding: 20px;
+    background-color: #ffffffce;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0);
+}
+
+/*ID subtitulos*/
+#s1, #s2, #s3, #s4, #s5, #s6{
+    margin-bottom: 15px;
+    color: rgba(0,0, 225,1);
+    text-align: center;
+}
+
+.imag1{
+    border: solid white 3px;
+    margin: 20px 0;
+    float: right; /*el texto envuelve la imagen a la derecha*/
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/*listas*/
+ul, ol{
+    margin-left: 20px;
+}
+
+li{
+    margin-bottom: 5px;
+}
+
+/*tabla (box model)*/
+.ficha table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ficha th, .ficha td{
+    border: 3px solid navy;
+    padding: 5px;
+}
+
+.coso{
+    background-color: #FCF52E;
+}
+
+/*formulario*/
+form{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+input{
+    padding: 8px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #09028C;
+    border-radius: 8px;
+    background-color: rgba(0,145,90,0.3);
+}
+
+/*haciendo pequeños algunos inputs*/
+input[type="text"]{
+    width: 50%;
+}
+
+input[type="email"]{
+    width: 50%;
+}
+
+input[type="date"]{
+    width: 20%;
+}
+
+input[type="number"]{
+    width: 12%;
+}
+
+/*ajustes del boton enviar*/
+input[type="submit"]{
+    background-color: navy;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 25%;
+}
+
+input[type="submit"]:hover{
+    background-color: #804298;
+}
+
+/*boton borrar*/
+input[type="reset"]{
+    background-color: navy;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+    width: 25%;
+}
+
+input[type="reset"]:hover{
+    background-color: #804298;
+}
+
+/*galeria*/
+.galeria{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.contenedor-galeria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-content: center;
+    justify-content: center;
+}
+
+.galeria img{
+    width: 30%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transsform 0.3s;
+}
+
+.galeria img:hover{
+    transform: scale(2.3);
+}
+
+/*footer*/
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #232323;
+    color: white;
+    margin-top: 40px;
+    font-family: 'Matemasie', cursive;
+    letter-spacing: 3px;
+    font-size: 1rem;
+}
